@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0739B6</color>
+    <color name="colorPrimaryDark">#052471</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="colorHalfWhite">#f5f5f5 </color>
+    <color name="colorFullWhite">#ffffff </color>
+    <color name="colorPurple">#FF134AD4 </color>
+    <color name="OffLightRed">#eb4034 </color>
+    <color name="OffLightYellow">#ebeb17 </color>
+    <color name="OffLightBlue">#09aee0 </color>
+
+    <!--Tab colors-->
+    <color name="tab_background_selected">#0739B6</color>
+    <color name="tab_background_unselected">#0739B6</color>
+
+    <!--Tab  Text colors-->
+    <color name="tab_layout_text_color">#134AD4</color>
+</resources>

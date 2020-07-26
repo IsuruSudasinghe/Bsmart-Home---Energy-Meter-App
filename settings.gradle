@@ -1,0 +1,2 @@
+rootProject.name='SmartSocket'
+include ':app'

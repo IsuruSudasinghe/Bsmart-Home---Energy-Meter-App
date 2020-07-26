@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "587408015847",
+    "firebase_url": "https://smart-socket-d8aed.firebaseio.com",
+    "project_id": "smart-socket-d8aed",
+    "storage_bucket": "smart-socket-d8aed.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587408015847:android:6f4b381bf55e782d8a3d42",
+        "android_client_info": {
+          "package_name": "com.example.smartsocket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "587408015847-pln5vkqpdhmbqn038vpkpl74gebbuio0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartsocket",
+            "certificate_hash": "be39f1af2b00f0def5bbeb491b4e861ab6d27ec6"
+          }
+        },
+        {
+          "client_id": "587408015847-5e4pgij2pii52nmsj601a7d7ggceffb9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDWDhWGYjidGohQFkgM8TlCvUAcThgfU3g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "587408015847-5e4pgij2pii52nmsj601a7d7ggceffb9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

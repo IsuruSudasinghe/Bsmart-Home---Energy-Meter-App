@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="99dp">
+
+        <com.mikhaellopez.circularprogressbar.CircularProgressBar
+            android:id="@+id/circularTotalProgressBar"
+            android:layout_width="116dp"
+            android:layout_height="86dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="284dp"
+            app:cpb_background_progressbar_color="#b6bbd8"
+            app:cpb_background_progressbar_width="25dp"
+            app:cpb_progress_direction="to_right"
+            app:cpb_progressbar_color="#3f51b5"
+            app:cpb_progressbar_width="10dp"
+            app:cpb_round_border="false"
+            android:layout_centerVertical="true" />
+
+    <TextView
+        android:id="@+id/progressbarVal"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_alignLeft="@id/circularTotalProgressBar"
+        android:layout_alignTop="@+id/circularTotalProgressBar"
+        android:layout_alignRight="@id/circularTotalProgressBar"
+        android:layout_alignBottom="@id/circularTotalProgressBar"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="-94dp"
+        android:layout_marginLeft="-104dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginRight="13dp"
+        android:layout_marginBottom="27dp"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:text="0.00"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/progressbarUnits"
+        android:layout_width="39dp"
+        android:layout_height="19dp"
+        android:layout_alignLeft="@id/circularTotalProgressBar"
+        android:layout_alignEnd="@+id/circularTotalProgressBar"
+        android:layout_alignRight="@id/circularTotalProgressBar"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginLeft="29dp"
+        android:layout_marginEnd="49dp"
+        android:layout_marginRight="49dp"
+        android:layout_marginBottom="22dp"
+        android:background="@android:color/transparent"
+        android:text="Units"
+        android:textSize="13dp" />
+
+    <TextView
+        android:id="@+id/deviceName"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginTop="14dp"
+        android:text="Fridge"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/wattReading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="193dp"
+        android:layout_marginBottom="15dp"
+        android:text="10.00"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/unitWatt"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="2dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="15dp"
+        android:layout_toEndOf="@+id/wattReading"
+        android:text="W"
+        android:textSize="30dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="38dp"
+        android:layout_height="28dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="301dp"
+        android:layout_marginTop="36dp"
+
+        app:srcCompat="@drawable/ic_online" />
+
+    <ImageView
+        android:id="@+id/deviceIcon"
+        android:layout_width="55dp"
+        android:layout_height="39dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="113dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginBottom="36dp"
+        app:srcCompat="@drawable/ic_freezer_name" />
+
+</RelativeLayout>
+

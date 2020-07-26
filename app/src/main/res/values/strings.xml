@@ -1,0 +1,53 @@
+<resources>
+    <!--Register Activity-->
+    <string name="app_name">BSmart Home</string>
+    <string name="LoginIn_name">Log In</string>
+    <string name="EnterEmail_name">Enter Email</string>
+    <string name="EnterPassword_name">Enter Password</string>
+    <string name="Login_name">Login</string>
+    <string name="ForgotPassword_name">Forgot Password?</string>
+    <string name="NoAccount_name">Don\'t have an Account?</string>
+    <string name="CreateAccount_name">Create Account</string>
+
+    <!--Register Activity-->
+    <string name="haveAccount_name">Already have an Account?</string>
+    <string name="Register_name">Register</string>
+    <string name="Register_first_name">Enter your First Name</string>
+    <string name="Register_user_name">Pick a User Name</string>
+    <string name="Register_last_name">Enter your Last name</string>
+    <string name="Register_email_name">Enter your Email Address</string>
+    <string name="Register_phone_name">Enter your Phone Number</string>
+    <string name="Register_password_name">Desired Password</string>
+    <string name="Register_reenter_password_name">Re-enter Password</string>
+    <string name="hint_gender">I am</string>
+    <string name="male_name">Male</string>
+    <string name="female_name">Female</string>
+
+    <!--Custom Pop Up Window-->
+    <string name="EnterCode_name">SMS verification code:</string>
+    <string name="hintCode_name">code</string>
+    <string name="codeSubmit_name">Submit</string>
+    <string name="closeButton_name">X</string>
+    <string name="NoCodeReceived_name">Didn\'t receive the Code?</string>
+    <string name="resendCode_name">Resend</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Fragment-->
+    <string name="Meter">"Meter"</string>
+    <string name="Status">"Status"</string>
+    <string name="Charts">"Charts"</string>
+
+
+    <!--Fragment 3-->
+    <string name="Year">"Year"</string>
+    <string name="Month">"Month"</string>
+
+
+    <!--Fragment 1-->
+    <string name="LimitExceed">"Monthly Limit Exceeded!"</string>
+
+
+
+</resources>
